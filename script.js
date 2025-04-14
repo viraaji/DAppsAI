@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    
+
     const sections = document.querySelectorAll('section[id]');
 
     window.addEventListener('scroll', function() {
@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+
 
 });
 
@@ -55,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
         cursorFollower.style.height = '40px';
     });
 
-    // Hover effects for links and buttons
+
     const hoverElements = document.querySelectorAll('a, button, .tab-item, .feature-card, .component-card');
 
     hoverElements.forEach(element => {
@@ -78,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Header scroll effect
+
     const header = document.querySelector('header');
 
     window.addEventListener('scroll', function() {
@@ -107,7 +108,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Count animation for stats
+
     const stats = document.querySelectorAll('.stat-number');
 
     const observerOptions = {
@@ -143,7 +144,6 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(stat);
     });
 
-    // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Active navigation based on scroll position
+
     const sections = document.querySelectorAll('section[id]');
 
     window.addEventListener('scroll', function() {
@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Copy code functionality
+
     document.querySelectorAll('.copy-btn').forEach(button => {
         button.addEventListener('click', function() {
             const codeBlock = this.parentElement;
