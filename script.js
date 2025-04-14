@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Make sure to include the new sections in our scroll observer
+    
     const sections = document.querySelectorAll('section[id]');
 
     window.addEventListener('scroll', function() {
@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Rest of your JavaScript remains the same
 });
 
 document.addEventListener('DOMContentLoaded', function() {
