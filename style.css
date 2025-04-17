@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
-/* Custom Cursor */
+
 .cursor {
     position: fixed;
     width: 8px;
@@ -69,14 +69,28 @@ h1, h2, h3, h4, h5, h6 {
     transition: transform 0.1s, width 0.2s, height 0.2s, border 0.2s;
 }
 
-/* Container */
+
 .container {
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 1.5rem;
 }
 
-/* Buttons */
+.team-logo {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4a90e2;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .btn {
     display: inline-flex;
     align-items: center;
@@ -115,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(-2px);
 }
 
-/* Glass Morphism */
+
 .glass-morphism {
     background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(10px);
@@ -124,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
-/* Header */
+
 header {
     position: fixed;
     top: 0;
